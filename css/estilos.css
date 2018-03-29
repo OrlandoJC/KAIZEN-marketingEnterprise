@@ -35,7 +35,7 @@ body {
     border-bottom: 1px solid #ddd;
     --color: rgb(124, 123, 123);
     position: fixed;
-    background-color: #fff;
+    background-color: #f7f7f7;
     z-index: 100;
 }
 
@@ -207,7 +207,8 @@ footer {
 
    
     #slides {
-        top: 50px;
+        top: 45px;
+        height: 286px;
     }
 
    .slidesjs-container {
@@ -218,7 +219,8 @@ footer {
         margin-top: -110px;
      }
      .slidesjs-control{
-        top:0px;
+        top:10px;
+        width: 900px;
     }
 }
 
