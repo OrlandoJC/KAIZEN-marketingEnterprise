@@ -196,6 +196,16 @@ footer {
 
 
 
+@media only screen and (max-width: 400px) {
+    
+     #slides {
+         top: 45px;
+         height: 250px;
+     }
+
+ }
+ 
+
 @media only screen and (max-width: 600px) {
    .header__navegacion {
     display: none;
