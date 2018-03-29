@@ -196,17 +196,31 @@ footer {
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 360px) {
+    .header__navegacion {
+        display: none;
+       }
     
-     #slides {
-         top: 45px;
-         height: 250px;
-     }
+       .header__logo{
+           margin: 0 auto;
+       }
+    
+    #slides {
+        top: 42px;
+        height: 270px;
+    }
 
+    .somos {
+        margin-top: -100px;
+     }
+     .slidesjs-control{
+        top:0px;
+        width: 900px;
+    }
  }
  
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 360px) {
    .header__navegacion {
     display: none;
    }
@@ -215,7 +229,6 @@ footer {
        margin: 0 auto;
    }
 
-   
     #slides {
         top: 45px;
         height: 286px;
